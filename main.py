@@ -1,3 +1,20 @@
+# ⚠️ Disclaimer
+# This project is for informational and educational purposes only.
+# It is not intended as financial, investment, or trading advice.
+#
+# The tools and data provided in this repository are purely experimental
+# and must not be used for real-world financial decision-making.
+# The author is not a licensed financial advisor in Canada, the United States,
+# or any other jurisdiction.
+#
+# No content in this repository constitutes a recommendation, solicitation,
+# or offer to buy or sell securities or financial instruments.
+# Use of this code is at your own risk.
+#
+# By using this repository, you agree that the author is not responsible
+# for any financial losses or decisions made based on the provided content or code.
+
+
 from fastapi import FastAPI, Depends
 from fastapi.responses import JSONResponse
 from fastapi.templating import Jinja2Templates
