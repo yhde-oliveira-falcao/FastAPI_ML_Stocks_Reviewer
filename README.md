@@ -92,9 +92,6 @@ GET /stocks/{symbol} – Get historical prices for a stock
 
 POST /update/stock_data – Fetch and store the latest stock prices
 
-POST /update/dividend_data – Fetch and store dividend records
-
-GET /analyze/dividend-bounce – Run ML-based pattern detection (WIP)
 
 ## 🧪 Development Roadmap
  Fetch daily OHLC data from APIs
@@ -103,7 +100,7 @@ GET /analyze/dividend-bounce – Run ML-based pattern detection (WIP)
 
  Set up Chart.js frontend
 
- Implement dividend bounce analysis (statistical + ML)
+ Implement stocks bounce analysis (statistical + ML)
 
  Add user input form and visual outputs (React optional)
 
