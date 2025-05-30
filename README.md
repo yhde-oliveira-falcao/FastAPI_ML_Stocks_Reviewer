@@ -37,13 +37,11 @@ See disclaimer at the bottom of this page
 
 ## 📂 Project Structure
 FastAPI_ML_Stocks_Reviewer/
-├── api/ # API routers and logic
+├── API routers and logic
 
-├── database/ # DB models and session config
+├── DB models and session config
 
-├── ml/ # ML models and analysis tools (WIP)
-
-├── static/ # Chart.js and web assets
+├── ML models and analysis tools (WIP)
 
 ├── templates/ # HTML templates (Jinja2)
 
