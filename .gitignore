@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Env
+.env
+*.env
+venv/
+ENV/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm
+.idea/
+.vscode/
+
+# Database (if using SQLite at some point)
+*.db
+
+# API keys or secrets
+*.pem
+*.key
+config.yaml
+*.sqlite3
+
+# Python notebooks (if not using)
+*.ipynb
