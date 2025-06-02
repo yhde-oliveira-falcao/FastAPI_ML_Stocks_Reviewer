@@ -35,7 +35,7 @@ See disclaimer at the bottom of this page
 - **Backend:** FastAPI, SQLAlchemy (async), SQLite
 - **Data Sources:** TMX Money GraphQL API, Alpha Vantage API
 - **ML/Analysis:** NumPy, Pandas, Scikit-learn (planned)
-- **Frontend:** HTML (to become ReactJS soon), JS, Chart.js + Jinja2 templates
+- **Frontend:** React, Vite, Chart.js
 
 ---
 
