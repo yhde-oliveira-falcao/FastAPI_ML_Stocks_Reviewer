@@ -3,7 +3,11 @@
 [![License](https://img.shields.io/github/license/yhde-oliveira-falcao/FastAPI_ML_Stocks_Reviewer?style=flat-square)](./LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-blue?style=flat-square)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green?style=flat-square)](https://fastapi.tiangolo.com/)
+[![Vite](https://img.shields.io/badge/Vite-DevTool-yellow?style=flat-square)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-Library-blue?style=flat-square)](https://reactjs.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=flat-square)](https://www.mysql.com/)
 [![Status](https://img.shields.io/badge/status-Active-brightgreen?style=flat-square)]()
+
 
 > **A lightweight API to fetch, store, and analyze stock data using FastAPI, MySQL, and Machine Learning.**
 
