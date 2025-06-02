@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Depends
 from fastapi.responses import JSONResponse
-
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 
@@ -12,17 +11,8 @@ import models
 from datetime import timedelta
 from analysis import predict_knn, get_stock_dataframe
 
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 # Create tables AFTER ensuring DB exists
 models.Base.metadata.create_all(bind=engine)
@@ -35,7 +25,6 @@ def get_db():
         yield db
     finally:
         db.close()
-
 
 
 
@@ -83,7 +72,6 @@ def predict_stock_price_route(
     from analysis import analyze_and_predict_trend
     result = analyze_and_predict_trend(ticker, db, window_size, forecast_horizon)
     return JSONResponse(content=result)
-
 
 
 
