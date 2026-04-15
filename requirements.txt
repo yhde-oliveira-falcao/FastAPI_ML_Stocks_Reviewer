@@ -21,7 +21,7 @@ numpy==1.26.4
 scikit-learn==1.5.0
 
 # Optional: chart rendering, background tasks
-python-multipart==0.0.9  # If you plan to upload files later
+python-multipart==0.0.26  # If you plan to upload files later
 
 # Dev tools (optional)
 python-dotenv==1.0.1  # If using .env for API keys
