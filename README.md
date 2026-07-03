@@ -23,7 +23,7 @@
 - 🔍 Includes experimental ML logic to explore price patterns
 
 
-# THIS IS NOT A FINANCIAL CONTENT, AND THIS REPOSITORY SHOULD NEVER BE USED FOR FINANCIAL ANALYSIS OR EDUCATION
+# THIS IS NOT A FINANCIAL CONTENT, AND THIS REPOSITORY SHOULD NEVER BE USED FOR FINANCIAL ANALYSIS, ONLY EDUCATION
 See disclaimer at the bottom of this page
 
 - This project is a introductin to Machine Learning using real world large data, which opens wide possibilities to apply different algorythms and logic to understand and visualize complex data 
