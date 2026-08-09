@@ -24,4 +24,4 @@ scikit-learn==1.5.0
 python-multipart==0.0.9  # If you plan to upload files later
 
 # Dev tools (optional)
-python-dotenv==1.0.1  # If using .env for API keys
+python-dotenv==1.2.2  # If using .env for API keys
