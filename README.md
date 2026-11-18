@@ -19,7 +19,7 @@
 - 🧠 Analyzes stock trends using daily candlestick data
 - 💾 Saves historical stock prices and information in a MySQL database
 - 📊 Aims to review stock behavior with Machine Learning
-- 🔧 Built with FastAPI and SQLAlchemy (async)
+- 🔧 Built with FastAPI and SQLAlchemy 
 - 🔍 Includes experimental ML logic to explore price patterns
 
 
